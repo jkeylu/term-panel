@@ -1,0 +1,26 @@
+{
+  "name": "term-panel",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jKey Lu",
+  "license": "MIT",
+  "dependencies": {
+    "charm": "~0.2.0",
+    "keypress": "~0.2.1"
+  },
+  "devDependencies": {},
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkeylu/term-panel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkeylu/term-panel/issues"
+  }
+}
