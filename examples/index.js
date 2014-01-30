@@ -14,7 +14,7 @@ var list, item, i;
 
 list = new List();
 list.setWidth(15);
-panel.addList(list);
+panel.addItem(list);
 for (i = 0; i < 40; i ++) {
   var item = new Checkbox('L1-Item-' + i);
   list.addItem(item);
@@ -23,7 +23,7 @@ for (i = 0; i < 40; i ++) {
 
 list = new List();
 list.setWidth(15);
-panel.addList(list);
+panel.addItem(list);
 for (i = 0; i < 40; i ++) {
   var item = new Checkbox('L2-Item-' + i);
   list.addItem(item);
