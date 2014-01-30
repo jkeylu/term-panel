@@ -10,24 +10,23 @@ panel.on('keypress', function (key) {
   }
 });
 
+var list, item, i;
 
-var list = new List();
-list.setWidth(10);
-var item = new Checkbox('Hello');
-list.addItem(item);
-item = new Checkbox('World', true);
-list.addItem(item);
+list = new List();
+list.setWidth(15);
 panel.addList(list);
+for (i = 0; i < 40; i ++) {
+  var item = new Checkbox('L1-Item-' + i);
+  list.addItem(item);
+}
 
 
 list = new List();
-list.setWidth(10);
-item = new Checkbox('item1');
-list.addItem(item);
-item = new Checkbox('item2');
-list.addItem(item);
-item = new Checkbox('item3');
-list.addItem(item);
+list.setWidth(15);
 panel.addList(list);
+for (i = 0; i < 40; i ++) {
+  var item = new Checkbox('L2-Item-' + i);
+  list.addItem(item);
+}
 
 panel.show();
